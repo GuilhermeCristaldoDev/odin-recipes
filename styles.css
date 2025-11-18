@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    height: 100vh;
+    padding: 2em;
+    background-color: rgb(199, 199, 38);
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+img {
+    width: 100%;
+    height: 80%;
+}
+
+ul {
+    margin-top: 2em;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+ul li {
+    list-style: none;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+ul li a {
+    text-decoration: none;
+}
